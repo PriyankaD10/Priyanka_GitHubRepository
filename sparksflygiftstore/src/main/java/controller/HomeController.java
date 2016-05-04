@@ -11,12 +11,12 @@ public class HomeController {
 	 
 	@RequestMapping("/")
 	public String showMessage() {
-			return "index";
+			return "LandingPage";
 	}
 	 
-		@RequestMapping("/nextpage")
+		@RequestMapping("/Register")
 		public String showNextMessage() {
-				return "nextpage";
+				return "Register";
 		}
 		
 		@RequestMapping("/LandingPage")
